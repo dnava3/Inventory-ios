@@ -21,8 +21,6 @@ App iOS para control de insumos y operaciones de inventario en piso: recepcion, 
 
 ## Screenshots
 
-> Nota: estas imagenes son placeholders. Reemplazalas por capturas reales de la app para tu portafolio.
-
 | Inicio | Recepcion | Reabasto |
 | --- | --- | --- |
 | ![Inicio](docs/screenshots/inicio.png) | ![Recepcion](docs/screenshots/recepcion.png) | ![Reabasto](docs/screenshots/reabasto.png) |

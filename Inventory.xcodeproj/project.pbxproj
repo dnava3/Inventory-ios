@@ -35,16 +35,6 @@
 			path = Inventory;
 			sourceTree = "<group>";
 		};
-		7B4E57772F566DAA00DF5B66 /* InventoryTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = InventoryTests;
-			sourceTree = "<group>";
-		};
-		7B4E57812F566DAA00DF5B66 /* InventoryUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = InventoryUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				7B4E57642F566DA900DF5B66 /* Inventory */,
-				7B4E57772F566DAA00DF5B66 /* InventoryTests */,
-				7B4E57812F566DAA00DF5B66 /* InventoryUITests */,
 				7B4E57632F566DA900DF5B66 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				7B4E57762F566DAA00DF5B66 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				7B4E57772F566DAA00DF5B66 /* InventoryTests */,
-			);
 			name = InventoryTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				7B4E57802F566DAA00DF5B66 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				7B4E57812F566DAA00DF5B66 /* InventoryUITests */,
 			);
 			name = InventoryUITests;
 			packageProductDependencies = (
@@ -400,6 +382,8 @@
 				DEVELOPMENT_TEAM = JD7JG4FFT7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Required to scan";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -432,6 +416,8 @@
 				DEVELOPMENT_TEAM = JD7JG4FFT7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Required to scan";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

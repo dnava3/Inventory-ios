@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Environment / secrets
+.env
+.env.*
+
+# Xcode user-specific files
+xcuserdata/
+**/xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+
+# Build artifacts
+build/
+DerivedData/
+*.ipa
+*.dSYM
+
+# Swift Package Manager
+.build/
+Packages/
+
+# CocoaPods
+Pods/

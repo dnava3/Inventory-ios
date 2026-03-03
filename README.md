@@ -1,8 +1,13 @@
 # Inventory (iOS)
 
+![iOS](https://img.shields.io/badge/iOS-SwiftUI-0A84FF?logo=apple&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-5.0-FA7343?logo=swift&logoColor=white)
+![Core Data](https://img.shields.io/badge/Persistence-Core%20Data-5C4EE5)
+![Status](https://img.shields.io/badge/Status-Portfolio-2EA043)
+
 App iOS para control de insumos y operaciones de inventario en piso: recepcion, consumo, conteo, ajustes y reabasto con sugerencias.
 
-## Demo funcional
+## Funcionalidades
 
 - Dashboard con KPIs de inventario y cobertura (WoS).
 - Catalogo de SKUs con alta rapida y detalle por producto.
@@ -14,6 +19,14 @@ App iOS para control de insumos y operaciones de inventario en piso: recepcion, 
 - Reabasto sugerido con exportacion CSV y generacion de POs.
 - Importacion CSV para alta/actualizacion de SKUs.
 
+## Screenshots
+
+> Nota: estas imagenes son placeholders. Reemplazalas por capturas reales de la app para tu portafolio.
+
+| Inicio | Recepcion | Reabasto |
+| --- | --- | --- |
+| ![Inicio](docs/screenshots/inicio.png) | ![Recepcion](docs/screenshots/recepcion.png) | ![Reabasto](docs/screenshots/reabasto.png) |
+
 ## Stack tecnico
 
 - Swift + SwiftUI
@@ -23,7 +36,7 @@ App iOS para control de insumos y operaciones de inventario en piso: recepcion, 
 
 ## Ejecutar en local
 
-1. Abre `/Users/damiannava/Desktop/Inventory/Inventory.xcodeproj` en Xcode.
+1. Abre `Inventory.xcodeproj` en Xcode.
 2. Selecciona el scheme `Inventory`.
 3. Ejecuta en simulador o dispositivo iOS.
 
@@ -31,14 +44,14 @@ Nota: se requiere instalacion completa de Xcode (no solo Command Line Tools).
 
 ## Estructura principal
 
-- `/Users/damiannava/Desktop/Inventory/Inventory/HomeView.swift`: dashboard y navegacion principal.
-- `/Users/damiannava/Desktop/Inventory/Inventory/RecepcionView.swift`: entradas de inventario.
-- `/Users/damiannava/Desktop/Inventory/Inventory/ConsumoView.swift`: salidas/consumo.
-- `/Users/damiannava/Desktop/Inventory/Inventory/ConteoView.swift`: conteo ciclico.
-- `/Users/damiannava/Desktop/Inventory/Inventory/ReabastoView.swift`: sugerencias de compra/reabasto.
-- `/Users/damiannava/Desktop/Inventory/Inventory/ImportCSVView.swift`: importador CSV.
-- `/Users/damiannava/Desktop/Inventory/Inventory/BarcodeScannerView.swift`: escaneo de codigo de barras.
-- `/Users/damiannava/Desktop/Inventory/Inventory/Persistence.swift`: configuracion Core Data.
+- `Inventory/HomeView.swift`: dashboard y navegacion principal.
+- `Inventory/RecepcionView.swift`: entradas de inventario.
+- `Inventory/ConsumoView.swift`: salidas/consumo.
+- `Inventory/ConteoView.swift`: conteo ciclico.
+- `Inventory/ReabastoView.swift`: sugerencias de compra/reabasto.
+- `Inventory/ImportCSVView.swift`: importador CSV.
+- `Inventory/BarcodeScannerView.swift`: escaneo de codigo de barras.
+- `Inventory/Persistence.swift`: configuracion Core Data.
 
 ## Privacidad y datos
 
